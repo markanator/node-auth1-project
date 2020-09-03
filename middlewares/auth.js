@@ -1,6 +1,3 @@
-const Users = require('../users/users-models');
-const bcrypt = require('bcryptjs');
-
 function restrict() {
 	const authError = {
 		message: 'Invalid Creds!',
